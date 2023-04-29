@@ -3,22 +3,22 @@ class Entry
 {
     public string prompt;
     public string response;
-    private string _date;
+    private string date;
 
-    public Entry(string date, string prompt, string response) 
+    public Entry(string _date, string _prompt, string _response) 
     {
-        _date = date;
-        this.prompt = prompt;
-        this.response = response;
+        date = _date;
+        this.prompt = _prompt;
+        this.response = _response;
     }
 
     public void DisplayEntry() 
     {
-        Console.WriteLine($"{_date}: {prompt}\n{response}\n");
+        Console.WriteLine($"{date}: {prompt}\n{response}\n");
     }
 
     public string GetEntryAsCsv() 
     {
-        return $"{_date}|{prompt}|{response}";
+        return $"{date}|{prompt}|{response}";
     }
 }
