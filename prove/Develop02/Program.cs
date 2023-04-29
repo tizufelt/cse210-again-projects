@@ -16,7 +16,7 @@ class Program
         "4. Save",
         "5. Quit",
         "What would you like to do?"
-    };
+        };
 
      while (menuUserinput != 5)
         {
