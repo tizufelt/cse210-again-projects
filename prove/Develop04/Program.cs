@@ -13,12 +13,12 @@ class Program
         Console.WriteLine("2. Start reflecting activity");
         Console.WriteLine("3. Start listing activity");
         Console.WriteLine("4. Quit");
-        Console.Write("Select a choise from the menu: ");
+        Console.Write("Select from the menu above to start your mindfulness journey: ");
         }
     
     //Start
     Console.Clear();
-    Console.WriteLine("Welcome to the mindfulness program. This program has 3 activities to help you punder and refelt during the day");
+    Console.WriteLine("Welcome to the mindfulness program. This program has 3 activities to help you ponder and reflect:");
     
         int runProgram = 0;
         while(runProgram != 4){
@@ -47,7 +47,7 @@ class Program
             //Reflecting activity
             case 2:
                 Console.Clear();
-                Reflecting reflecting = new Reflecting(0,"Refelcting");
+                Reflecting reflecting = new Reflecting(0,"Reflecting");
                 reflecting.WelcomMesage();
                 reflecting.displayDescription();
                 // store the duration in seconds of the activty 
