@@ -1,3 +1,4 @@
-public class PointsTracker{
-   public int _total;
+public class PointsTracker
+{
+    public int _total;
 }
