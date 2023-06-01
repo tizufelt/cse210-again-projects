@@ -30,6 +30,7 @@ namespace YouTubeMonitoring
             // Iterate through the list of videos and display information
             foreach (var video in videos)
             {
+                Console.WriteLine();
                 Console.WriteLine("Title: " + video.Title);
                 Console.WriteLine("Author: " + video.Author);
                 Console.WriteLine("Length (in seconds): " + video.Length);
